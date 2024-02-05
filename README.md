@@ -70,8 +70,8 @@ cd ..
 ./autogen.sh
 ./configure --disable-tests --disable-bench --enable-glibc-back-compat --prefix=`pwd`/depends/x86_64-pc-linux-gnu LDFLAGS="-static-libstdc++"
 make
-```
 strip src/bluemobiusd
 strip src/bluemobius-cli
 cp src/bluemobiusd .
 cp src/bluemobius-cli .
+```
