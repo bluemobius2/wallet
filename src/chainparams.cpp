@@ -324,6 +324,7 @@ public:
         checkpointData = {
             {
                 {0, uint256S("0x00000ebc15d8e98d12596fb954612ad570b8109419f84be6f79b058c0c8080a2")},
+                {24117, uint256S("0x00000000000250be2cbb7064e2b165d43b243170c3364683e935dd4ee5fa4c02")},
             }
         };
 
