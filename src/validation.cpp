@@ -1181,7 +1181,7 @@ static std::pair<CAmount, CAmount> GetBlockSubsidyHelper(int nPrevBits, int nPre
         nSuperblockPart = nSubsidy / (fV20Active ? 5 : 10);
     }
 
-    if (nHeight < 30000) {
+    if (nPrevHeight < 30000) {
           return {nSubsidy - nSuperblockPart, nSuperblockPart};
         } else {
           return {nSubsidy, 0};
